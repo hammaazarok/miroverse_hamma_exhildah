@@ -1,8 +1,9 @@
 # FCC Test Suite Template
 
 Microverse Microverse Trials
-NFT Collection Landing Page
 
 Made By:
-Hamma Azarok and Alireza
+Hamma Azarok and Exhildah
+Webpage:
+https://miroverse-hamma-exhildah.vercel.app/
 
