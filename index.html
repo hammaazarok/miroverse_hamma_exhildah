@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link  rel="stylesheet" href="bootstrap.min.css">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -12,7 +12,206 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1 >Hello World, we are developers</h1>
+    <div   >
+      <!---nav start-->
+      <nav id="navbar" class="navbar  navbar-fixed-top navbar-expand-lg navbar-dark bg-dark ">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+              <div class="navbar-nav ">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Skills</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      <!---nav end-->
+      <!--back start-->
+
+      <div id="welcome-section"  class="background" >
+          <img id="img" src="img1.jpg" class="img-fluid">
+          <div class="heading-content text-center" >
+            <h5>Hello I'm</h5>
+            <h1>Exhildah</h1>
+            <p>and this my first finalstep</p>
+        </div>
+      </div>
+      
+      <!--back end-->
+      <!--about start-->
+      <div id="about" class="container mt-3 pb-5">
+      <div class="post-heading text-center">
+<h3 class="display-4 text-white-bold ">About Me</h3>
+<hr class="w-50 mx-auto pd-5">
+</div>
+      <div class="row">
+  <div class="col-lg-6 col-md-6 col-12">
+<img src="img1.jpg" class="img-fluid">
+  </div>
+  <div class="col-lg-6 col-md-6 col-12">
+    <h2>Here is What I do</h2>
+    <hr>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <button class="btn btn-dark w-50">
+      <a href="#">Read More</a>
+    </button>
+      </div>
+</div>
+      </div>
+      <!--about end-->
+      <!--service start-->
+      <div id="projects" class="container mt-3 pb-5">
+<div class="post-heading text-center">
+<h3 class="display-4 text-white-bold ">Skills</h3>
+<hr class="w-50 mx-auto pd-5">
+</div>
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-12 pb-5">
+  <div class="card">
+    <img class="card-img-top" src="skill1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="project-tile" >Skill 1</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+      <a href="#" class="btn btn-dark">Details</a>
+    </div>
+  </div>
+  
+  </div>
+  <div class="col-lg-4 col-md-6 col-12 pb-5">
+    <div class="card">
+      <img class="card-img-top" src="skill2.png" alt="Card image cap">
+      <div class="card-body">
+        <h5>Skill 2</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+        <a href="#" class="btn btn-dark">Details</a>
+      </div>
+    </div>
+    
+    </div>
+    <div class="col-lg-4 col-md-6 col-12 pb-5">
+      <div class="card">
+        <img class="card-img-top" src="skill3.png" alt="Card image cap">
+        <div class="card-body">
+          <h5>Skill 3</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+          <a href="#" class="btn btn-dark">Details</a>
+        </div>
+      </div>
+      
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="skill4.png" alt="Card image cap">
+          <div class="card-body">
+            <h5>Skill 4</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <a href="#" class="btn btn-dark">Details</a>
+          </div>
+        </div>
+        
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+          <div class="card">
+            <img class="card-img-top" src="skill5.png" alt="Card image cap">
+            <div class="card-body">
+              <h5>Skill 5</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+              <a href="#" class="btn btn-dark">Details</a>
+            </div>
+          </div>
+          
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 pb-5">
+            <div class="card">
+              <img class="card-img-top" src="skill6.png" alt="Card image cap">
+              <div class="card-body">
+                <h5>Skill 6</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                <a href="#" class="btn btn-dark">Details</a>
+              </div>
+            </div>
+            
+            </div>
+</div>
+      </div>
+      <!--service end-->
+
+      <!---Contact start---->
+      <footer id = "contact" class="text-center text-white" style="background-color: #f1f1f1;">
+
+        <div class="container pt-4">
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a id="profile-link"
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://github.com/hammaazarok/"
+              role="button"
+              target="_blank"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+      
+        </div>
+       
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="microverse.org">microverse.org</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!---Contact End-->
+  </div>
     <script  src="js/index.js"></script>
   </body>
 </html>

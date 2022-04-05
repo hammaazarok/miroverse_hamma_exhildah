@@ -1,0 +1,79 @@
+.heading-content {
+    position :absolute;
+    top: 50%;
+    width: 100%;
+    }
+
+.heading-content h1{
+       font-size: 5em;
+       font-weight: 300;
+       color:#fff;
+       
+        }
+.heading-content h5{
+            font-size: 3em;
+            font-weight: 300;
+            color:#fff;
+             }
+.heading-content p{
+                font-size: 1em;
+                font-weight: lighter;
+                color:#fff;
+                text-transform: uppercase;
+                color: #ccc;
+                word-spacing: 5px;
+                letter-spacing: 2px;
+                 }
+#about .btn{
+        border:2px solid red;
+        width:40%;
+        padding: 15px 22px;
+        background:#000;
+        border-radius: 5px;
+        margin-top: 10px;
+    }   
+#about .btn a{
+        color:#fff;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }         
+#about .btn a:hover{
+        border:2px solid blue;
+        cursor: pointer;
+    } 
+.card-img-top {
+        width: 500px;
+        height:200px;
+    }
+
+@media (max-width:767px){
+    .heading-content {
+        position :absolute;
+        top: 50%;
+        width: 100%;
+        }
+        .heading-content h1{
+           font-size: 2em;
+           font-weight: 300;
+           color:#fff;
+           
+            }
+        .heading-content h5{
+                font-size: 1em;
+                font-weight: 300;
+                color:#fff;
+                 }
+    
+}
+#welcome-section {
+   
+  height: 100vh;
+
+  box-sizing: border-box;
+}
+#img {
+    width: 100%;
+    height: 100%;
+}
